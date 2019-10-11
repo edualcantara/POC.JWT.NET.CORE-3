@@ -16,7 +16,7 @@ namespace Authenticator
         {
             //CreateHostBuilder(args).Build().Run();
             var host = CreateHostBuilder(args).Build();
-            InitializerData.EnsureSeedData(host.Services);
+            InitializerData.EnsureInitializerData(host.Services);
             host.Run();
         }
 

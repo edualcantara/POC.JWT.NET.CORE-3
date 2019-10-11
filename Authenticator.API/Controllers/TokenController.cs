@@ -43,10 +43,8 @@ namespace Authenticator.API.Controllers
         [HttpPost]
         public async Task<IActionResult> RequestToken([FromBody] User request)
         {
-            var signmanager = _signInManager.PasswordSignInAsync(request.Name, request.Password, false, false);
-            
-            //Fake change for identity 
-            //if (request.Name == "eduardo" && request.Password == "123")
+            var signmanager = _signInManager.PasswordSignInAsync(request.Name, request.Password, false, false);            
+          
             if(signmanager.Result.Succeeded)
             {
 

@@ -11,7 +11,7 @@ namespace Authenticator.API
 {
     public class InitializerData
     {
-        public static void EnsureSeedData(IServiceProvider serviceProvider)
+        public static void EnsureInitializerData(IServiceProvider serviceProvider)
         {
             using (var scope = serviceProvider.GetRequiredService<IServiceScopeFactory>().CreateScope())
             {

@@ -505,11 +505,14 @@ D:\POCs\OK\API\POC.JWT.NET.CORE-3\Authenticator.API\bin\Debug\netcoreapp3.0\runt
 D:\POCs\OK\API\POC.JWT.NET.CORE-3\Authenticator.API\obj\Debug\netcoreapp3.0\Authenticator.API.csprojAssemblyReference.cache
 D:\POCs\OK\API\POC.JWT.NET.CORE-3\Authenticator.API\obj\Debug\netcoreapp3.0\staticwebassets\Authenticator.API.StaticWebAssets.Manifest.cache
 D:\POCs\OK\API\POC.JWT.NET.CORE-3\Authenticator.API\obj\Debug\netcoreapp3.0\staticwebassets\Authenticator.API.StaticWebAssets.xml
-D:\POCs\OK\API\POC.JWT.NET.CORE-3\Authenticator.API\obj\Debug\netcoreapp3.0\Authenticator.API.MvcApplicationPartsAssemblyInfo.cs
-D:\POCs\OK\API\POC.JWT.NET.CORE-3\Authenticator.API\obj\Debug\netcoreapp3.0\Authenticator.API.MvcApplicationPartsAssemblyInfo.cache
 D:\POCs\OK\API\POC.JWT.NET.CORE-3\Authenticator.API\obj\Debug\netcoreapp3.0\Authenticator.API.AssemblyInfoInputs.cache
 D:\POCs\OK\API\POC.JWT.NET.CORE-3\Authenticator.API\obj\Debug\netcoreapp3.0\Authenticator.API.AssemblyInfo.cs
 D:\POCs\OK\API\POC.JWT.NET.CORE-3\Authenticator.API\obj\Debug\netcoreapp3.0\Authenticator.API.RazorTargetAssemblyInfo.cache
 D:\POCs\OK\API\POC.JWT.NET.CORE-3\Authenticator.API\obj\Debug\netcoreapp3.0\Authenticator.API.csproj.CopyComplete
 D:\POCs\OK\API\POC.JWT.NET.CORE-3\Authenticator.API\obj\Debug\netcoreapp3.0\Authenticator.API.dll
 D:\POCs\OK\API\POC.JWT.NET.CORE-3\Authenticator.API\obj\Debug\netcoreapp3.0\Authenticator.API.pdb
+D:\POCs\OK\API\POC.JWT.NET.CORE-3\Authenticator.API\obj\Debug\netcoreapp3.0\Authenticator.API.MvcApplicationPartsAssemblyInfo.cs
+D:\POCs\OK\API\POC.JWT.NET.CORE-3\Authenticator.API\obj\Debug\netcoreapp3.0\Authenticator.API.MvcApplicationPartsAssemblyInfo.cache
+D:\POCs\OK\API\POC.JWT.NET.CORE-3\Authenticator.API\bin\Debug\netcoreapp3.0\IdentityServer4.dll
+D:\POCs\OK\API\POC.JWT.NET.CORE-3\Authenticator.API\bin\Debug\netcoreapp3.0\IdentityServer4.Storage.dll
+D:\POCs\OK\API\POC.JWT.NET.CORE-3\Authenticator.API\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll

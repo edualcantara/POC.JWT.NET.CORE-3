@@ -1,4 +1,5 @@
 using Authenticator.API.Model;
+using Authenticator.API.Services;
 using Authenticator.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
@@ -13,7 +14,7 @@ using Microsoft.OpenApi.Models;
 using System;
 using System.Text;
 using System.Threading.Tasks;
-using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
+
 
 namespace Authenticator
 {
@@ -29,18 +30,21 @@ namespace Authenticator
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //Connection Database SQL
+            // Connection Database SQL
             services
                 .AddDbContext<ApplicationDbContext>(options =>options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
-            // Block 1: Add ASP.NET Identity
+            services
+                .AddTransient<ILoginService<ApplicationUser>, LoginService>();
+
+            // Add ASP.NET Identity
             services
                 .AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
         
 
-            //Mode authentication configure.
+            // Mode authentication configure.
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options => {
                     options.TokenValidationParameters = new TokenValidationParameters
@@ -49,8 +53,8 @@ namespace Authenticator
                         ValidateAudience = true,
                         ValidateLifetime = true,
                         ValidateIssuerSigningKey = true,
-                        ValidIssuer = "eduardo.teste",
-                        ValidAudience = "eduardo.teste",
+                        ValidIssuer = Configuration["issuer"],
+                        ValidAudience = Configuration["audience"],
                         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["SecurityKey"]))
                     };
 

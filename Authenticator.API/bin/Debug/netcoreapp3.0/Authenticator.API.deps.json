@@ -25,6 +25,7 @@
       "Authenticator.API/1.0.0": {
         "dependencies": {
           "IdentityModel": "4.0.0",
+          "IdentityServer4": "3.0.1",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "3.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.0.0",
@@ -338,6 +339,37 @@
           "lib/netstandard2.0/IdentityModel.dll": {}
         }
       },
+      "IdentityServer4/3.0.1": {
+        "dependencies": {
+          "IdentityModel": "4.0.0",
+          "IdentityServer4.Storage": "3.0.1",
+          "Microsoft.AspNetCore.Authentication.OpenIdConnect": "3.0.0",
+          "Newtonsoft.Json": "12.0.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/IdentityServer4.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.0/IdentityServer4.dll": {}
+        }
+      },
+      "IdentityServer4.Storage/3.0.1": {
+        "dependencies": {
+          "IdentityModel": "4.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityServer4.Storage.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityServer4.Storage.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authentication.Abstractions/2.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": "2.0.0",
@@ -364,6 +396,20 @@
         },
         "compile": {
           "lib/netcoreapp3.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.OpenIdConnect/3.0.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "5.5.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.19.46502"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll": {}
         }
       },
       "Microsoft.AspNetCore.Authorization/2.0.0": {
@@ -4144,6 +4190,20 @@
       "path": "identitymodel/4.0.0",
       "hashPath": "identitymodel.4.0.0.nupkg.sha512"
     },
+    "IdentityServer4/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MtMMG+Obqwx/zRfuzkVyxpHo/jMUA8qQzEJOzpZfmwqrt3dDHOHJxRm3n6jhQ/3FWuYyyV1MpvDtLhzPUwMf2A==",
+      "path": "identityserver4/3.0.1",
+      "hashPath": "identityserver4.3.0.1.nupkg.sha512"
+    },
+    "IdentityServer4.Storage/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-97juaDDuq1NA/gV8y5iplv2wYBJCUEXE7b3MuVmTRt7uGCS3DaZWtbEKYwWr1djlwBqyo9HvciyPZYP8MD3Eaw==",
+      "path": "identityserver4.storage/3.0.1",
+      "hashPath": "identityserver4.storage.3.0.1.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Authentication.Abstractions/2.0.0": {
       "type": "package",
       "serviceable": true,
@@ -4164,6 +4224,13 @@
       "sha512": "sha512-FrlxgBG6+FKlYr1IVxXNXSK7jpxiIYf036VNR1UgopKSIUNjaK2zvkhfVgFZVavagitQ/+UZ8Snnm6axyAVRNg==",
       "path": "microsoft.aspnetcore.authentication.jwtbearer/3.0.0",
       "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.3.0.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.OpenIdConnect/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z/VvjURz5vS9SLVIHSKzPRe6PH5DPQxuzu+5Cv+2zojg7sVmXmj+sldBoGlGLvf7AA/F53+pc4oE7S8Fa9kfOQ==",
+      "path": "microsoft.aspnetcore.authentication.openidconnect/3.0.0",
+      "hashPath": "microsoft.aspnetcore.authentication.openidconnect.3.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/2.0.0": {
       "type": "package",
