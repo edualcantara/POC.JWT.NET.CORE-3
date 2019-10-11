@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\POCs\\OK\\API\\Authenticator.API\\Authenticator.API.csproj": {}
+    "D:\\POCs\\OK\\API\\POC.JWT.NET.CORE-3\\Authenticator.API\\Authenticator.API.csproj": {}
   },
   "projects": {
-    "D:\\POCs\\OK\\API\\Authenticator.API\\Authenticator.API.csproj": {
+    "D:\\POCs\\OK\\API\\POC.JWT.NET.CORE-3\\Authenticator.API\\Authenticator.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\POCs\\OK\\API\\Authenticator.API\\Authenticator.API.csproj",
+        "projectUniqueName": "D:\\POCs\\OK\\API\\POC.JWT.NET.CORE-3\\Authenticator.API\\Authenticator.API.csproj",
         "projectName": "Authenticator.API",
-        "projectPath": "D:\\POCs\\OK\\API\\Authenticator.API\\Authenticator.API.csproj",
+        "projectPath": "D:\\POCs\\OK\\API\\POC.JWT.NET.CORE-3\\Authenticator.API\\Authenticator.API.csproj",
         "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
-        "outputPath": "D:\\POCs\\OK\\API\\Authenticator.API\\obj\\",
+        "outputPath": "D:\\POCs\\OK\\API\\POC.JWT.NET.CORE-3\\Authenticator.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
