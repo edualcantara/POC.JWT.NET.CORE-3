@@ -2,7 +2,6 @@
 using Authenticator.Data;
 using IdentityModel;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Linq;

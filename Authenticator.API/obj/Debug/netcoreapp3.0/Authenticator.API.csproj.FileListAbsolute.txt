@@ -385,8 +385,8 @@ D:\Codigos\Poc\POC.JWT.NET.CORE-3\Authenticator.API\obj\Debug\netcoreapp3.0\Auth
 D:\Codigos\Poc\POC.JWT.NET.CORE-3\Authenticator.API\bin\Debug\netcoreapp3.0\IdentityModel.dll
 D:\POCs\OK\API\POC.JWT.NET.CORE-3\Authenticator.API\bin\Debug\netcoreapp3.0\appsettings.Development.json
 D:\POCs\OK\API\POC.JWT.NET.CORE-3\Authenticator.API\bin\Debug\netcoreapp3.0\appsettings.json
-D:\POCs\OK\API\POC.JWT.NET.CORE-3\Authenticator.API\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
 D:\POCs\OK\API\POC.JWT.NET.CORE-3\Authenticator.API\bin\Debug\netcoreapp3.0\appsettings.Prod.json
+D:\POCs\OK\API\POC.JWT.NET.CORE-3\Authenticator.API\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
 D:\POCs\OK\API\POC.JWT.NET.CORE-3\Authenticator.API\bin\Debug\netcoreapp3.0\Authenticator.API.exe
 D:\POCs\OK\API\POC.JWT.NET.CORE-3\Authenticator.API\bin\Debug\netcoreapp3.0\Authenticator.API.deps.json
 D:\POCs\OK\API\POC.JWT.NET.CORE-3\Authenticator.API\bin\Debug\netcoreapp3.0\Authenticator.API.runtimeconfig.json
