@@ -87,7 +87,7 @@ namespace Authenticator
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", $"Authenticator.API V1 {env.EnvironmentName}");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", $"Authenticator.API V1 - {env.EnvironmentName}");
                 c.RoutePrefix = string.Empty;   
             });
 
