@@ -11,12 +11,13 @@ using Microsoft.OpenApi.Models;
 using System;
 using System.Text;
 using System.Threading.Tasks;
+using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
 
 namespace Authenticator
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public Startup(IConfiguration configuration, IHostEnvironment env)
         {
             Configuration = configuration;
         }
@@ -86,7 +87,7 @@ namespace Authenticator
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Authenticator.API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", $"Authenticator.API V1 {env.EnvironmentName}");
                 c.RoutePrefix = string.Empty;
             });
 
