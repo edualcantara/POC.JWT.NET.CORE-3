@@ -14,23 +14,29 @@ variables:
 
 steps:
 - task: DotNetCoreCLI@2
+  displayName: 'restore'
   inputs:
     command: 'restore'
     feedsToUse: 'select'
 
 - script: dotnet build --configuration $(buildConfiguration)
-  displayName: 'dotnet build $(buildConfiguration)'
+  displayName: 'build'
 
 - task: DotNetCoreCLI@2
+  displayName: 'tests'
   inputs:
     command: 'test'
 
 - task: DotNetCoreCLI@2
+  displayName: 'publish'
   inputs:
     command: 'publish'
     publishWebProjects: true
+    projects: '**/Authenticator.API.csproj'
+    arguments: '--configuration $(buildConfiguration) --output $(build.artifactstagingdirectory)/authenticator'
 
 - task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifacts'
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'drop'
