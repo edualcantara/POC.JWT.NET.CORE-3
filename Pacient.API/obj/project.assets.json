@@ -3656,11 +3656,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\POCs\\OK\\API\\POC.JWT.NET.CORE-3\\Pacient.API\\Pacient.API.csproj",
+      "projectUniqueName": "D:\\POCs\\POC.JWT.NET.CORE-3\\Pacient.API\\Pacient.API.csproj",
       "projectName": "Pacient.API",
-      "projectPath": "D:\\POCs\\OK\\API\\POC.JWT.NET.CORE-3\\Pacient.API\\Pacient.API.csproj",
+      "projectPath": "D:\\POCs\\POC.JWT.NET.CORE-3\\Pacient.API\\Pacient.API.csproj",
       "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
-      "outputPath": "D:\\POCs\\OK\\API\\POC.JWT.NET.CORE-3\\Pacient.API\\obj\\",
+      "outputPath": "D:\\POCs\\POC.JWT.NET.CORE-3\\Pacient.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
